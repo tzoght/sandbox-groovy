@@ -2,7 +2,6 @@ language: groovy
 notifications: # set notification options
   email:
     recipients:
-      - one@example.com
-      - other@example.com
+      - tony@zoght.com
 test:
   - mvn test -B
