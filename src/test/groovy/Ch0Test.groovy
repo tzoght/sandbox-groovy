@@ -30,7 +30,7 @@ class BookTest extends Specification {
         book = new Book(title: 'Lord of the rings')
 
         then:
-        assert book.getTitle() == 'Lord of the rings'
+        assert book.getTitle() == 'Lord of the rings error'
     }
 
     def "Test Immutable Book"() {
