@@ -1,2 +1,8 @@
 language: groovy
-mvn test -B
+notifications: # set notification options
+  email:
+    recipients:
+      - one@example.com
+      - other@example.com
+test:
+  - mvn test -B
